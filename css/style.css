@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white-clr: #fff;
+  --light-blue-clr: #f7f9ff;
+  --fade-clr: #868686;
+  --dark-clr: #0e0d16;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--fade-clr);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--dark-clr);
+  text-transform: capitalize;
+}
+/* service start  */
+
+.header {
+  padding: 16px 0;
+  background-color: #fff;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav {
+  column-gap: 40px;
+}
+
+.navbar-nav li a {
+  padding: 0 !important;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+/* header end  */
+
+.banner {
+  padding: 0 120px 60px;
+  height: 450px;
+  background-color: var(--dark-clr);
+}
+
+.carousel-inner {
+  margin-bottom: 80px;
+}
+
+.carousel-inner h2 {
+  font-size: 24px;
+  color: var(--white-clr);
+}
+
+/* carousel end  */
+
+/* card  start  */
+
+.common-sec {
+  padding: 100px 0;
+}
+
+.texts {
+  margin-bottom: 70px;
+}
+
+.texts h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-body {
+  padding: 34px 20px;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.card-body p {
+  font-size: 15px;
+}
+/* card  end  */
+
+/* .accordion start  */
+
+.bgBack {
+  background-color: var(--light-blue-clr);
+}
+
+.accordion-item h2 button {
+  text-transform: capitalize;
+}
+
+/* .accordion emd  */
+
+/* list start  */
+
+.list-group h3 {
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+/* list end  */
+
+.single-pogressbar h2 {
+  font-weight: 600;
+  font-size: 18px;
+}
